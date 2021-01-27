@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Harmanpreet Dhillon Personal Website</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            hr {
+                background-color: white;
+                border-style: none;
+                height: 4px;
+            }
+
+            body {
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: auto auto auto auto;
+            }
+
+            #aboutme {
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+                grid-template-rows: auto auto;
+                margin-left: 15%;
+                margin-right: 15%;
+                margin-bottom: 80px;
+            }
+
+            #aboutMeTitle {
+                grid-column: 1 / span 2;
+                text-align: center;
+            }
+
+            #aboutDescription {
+                margin-left: 10%;
+                vertical-align: middle;
+            }
+
+            #experiences {
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: auto auto auto;
+                margin-bottom: 50px;
+            }
+
+            #expHeading {
+                grid-column: 1;
+                grid-row: 1;
+                text-align: center;
+            }
+
+            .expTitles {
+                margin-left: 15%;
+            }
+
+
+            #skills {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-template-rows: auto;
+                margin-left: 15%;
+                margin-right: 15%;
+                margin-bottom: 50px;
+                margin-top: 50px;
+            }
+
+            #list2 {
+                margin-top: 65px;
+            }
+
+            ul {
+                padding-left: 17px;
+            }
+
+            table {
+                width: 100%;
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+
+            table th {
+                text-align: left;
+            }
+
+            table td {
+                padding-bottom: 50px;
+            }
+
+            #name {
+                background-image: url("images/macbook.jpg");
+                background-size: 100% 100%;
+                height: 675px;
+                color: white;
+            }
+
+            .heading {
+                padding-left: 50px;
+                padding-top: 50px;
+            }
+
+            #myPicture {
+                border-radius: 50%;
+            }
+    
+        </style>
+    </head>
+    <body>
+        <header>
+            <div id="navname">
+                <h5>Harmanpreet Dhillon</h5>
+            </div>
+            <div id="navitems">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">About Me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>   
+        </header>
+
+        <div class="container-fluid">
+            <div id="name">
+                <h1 class="heading">Harmanpreet Dhillon</h1>
+                <h3 class="heading">My Resume</h3>
+            </div>
+            <br><br>
+            <div id="aboutme">
+                <div id="aboutMeTitle">
+                    <h2>Profile</h2><br>
+                    <h5>I am a Software Development Student</h5>
+                    <br><br>
+                </div>
+                <div id="myPic">
+                    <img src="images/me.jpg" alt="mypicture" id="myPicture" width="250px" height="250px">
+                </div>
+                <div id="aboutDescription">
+                    <h3>About Me</h3>
+                    <p>
+                        Hi, I’m Harmanpreet Dhillon, a current student at Mohawk college for Computer 
+                        Systems Technology – Software Development. I am 23 years old, was born in 
+                        Toronto, Ontario and have been living in Brampton, Ontario since 2005. I am 
+                        currently looking for a co-op position to get some hands-on experience on what 
+                        its like working as a software developer. I have created a couple of personal 
+                        projects of my own and try to find any opportunity to further my knowledge. 
+                        Like currently I am also doing two courses on Udemy to get a better understanding 
+                        of Java and Web Development.  My future goal is to work for a company I believe in 
+                        and have some successful projects of my own. 
+                    </p>
+                </div>
+
+            </div>
+            
+            <hr>
+            <br><br>
+            <div id="experiences">
+                <div id="expHeading">
+                    <h2>My Experiences</h2>
+                    <br><br>
+                </div>
+                <div id="education">
+                    <h3 class="expTitles">Education</h3>
+                    <br>
+                    <table>
+                        <tr>
+                            <th>Mohawk College</th>
+                            <th>Software Development - Advanced Diploma</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                2019 - Present<br>
+                                <img src="images/location.jpg" alt="location" width="20" height="20"> 
+                                Hamilton, Ontario
+                            </td>
+                            <td>
+                                I am currenlty in the fourth semester of this program. So far I have<br> 
+                                learned Python, Java, PHP, JavaScript, C#, SQL, HTML and CSS.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Udemy</th>
+                            <th>The Complete 2021 Web Development Bootcamp</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                2020 - present<br>
+                                <img src="images/location.jpg" alt="location" width="20" height="20"> 
+                                Online
+                            </td>
+                            <td>
+                                I took this online course on udemy.com after i learned the basics of<br>
+                                PHP and JavaScript in my 3rd semester at Mohawk College. I wanted to<br> 
+                                learn more about web development. When I have some free time I spend it<br> 
+                                doing this course. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Udemy</th>
+                            <th>Java Programming Masterclass for Software Developers</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                2020 - present<br>
+                                <img src="images/location.jpg" alt="location" width="20" height="20"> 
+                                Online
+                            </td>
+                            <td>
+                                I took this online course on udemy.com after the completion of my<br>
+                                Java class at Mohawk college to further my knowledge about programming<br> 
+                                in Java. Whenever I get the chance, I indulge in this course. 
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="work">
+                    <h3 class="expTitles">Work</h3>
+                    <br>
+                    <table>
+                        <tr>
+                            <th>Sysco Toronto</th>
+                            <th>Order Selector</th>
+                        </tr>
+                        <tr>
+                            <td>2015 - 2020</td>
+                            <td>
+                                Working as a part time order selector<br>
+                                Developed good time management skills while meeting daily deadlines<br>  
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>All Kinds of Furniture</th>
+                            <th>Furniture Delivery</th>
+                        </tr>
+                        <tr>
+                            <td>2018</td>
+                            <td>Learned essentially communications skills by meeting new customers daily<br>
+                                and adhering to their requirements during deliveries</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <hr>
+            <div id="skills">
+                <div id="codingSkills">
+                    <h3>Skills</h3><br>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Php</li>
+                        <li>JavaScript</li>
+                        <li>C#</li>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+                <div id="list2">
+                    <ul>
+                        <li>CSS</li>
+                        <li>SQL</li>
+                        <li>Bootstrap</li>
+                        <li>Networking</li>
+                        <li>Technical Writing</li>
+                        <li>Software Testing</li>
+                    </ul>
+                </div>
+                <div id="languages">
+                    <h3>Languages</h3><br>
+                    <ul>
+                        <li>English</li>
+                        <li>Punjabi</li>
+                        <li>Hindi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <footer>
+
+            </footer>
+        </div>
+    </body>
+</html>
